@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attendance</title>
+</head>
+<body>
+{% if data %}
+    {{ data }}
+{% endif %}
+<script>
+    var data={{ data|safe }};
+</script>
+
+</body>
+</html>
